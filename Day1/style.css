@@ -1,14 +1,78 @@
-/* .header {
+.loginPage {
+    min-height: 100vh;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
-.footer {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+
+.header {
+    margin: 50px;
 }
-body {
-    height: 100vh;
+
+
+.form {
+    flex: 1;
     display: flex;
     align-items: center;
-} */
+    flex-direction: column;
+    justify-content: center;
+    gap: 14px;
+    width: 320px;
+}
+
+.email, .password {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    cursor:text;
+}
+
+input {
+    height: 38px;
+    width: 300px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background: white;
+    cursor: pointer;
+}
+
+.footer {
+    font-size: 13px;
+    color: gray;
+    text-align: center;
+
+    /* below this adds the footer strip */
+    width: 100%;
+    padding: 16px 0;
+    background-color: #f2f2f2;
+}
+
+.signUp {
+    height: 38px;
+    width: 300px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: lightgray;
+    cursor: pointer
+}
+
+.sLink {
+    color: black;
+}
+
+.signIn {
+    font-size: 15;
+}
+
+.google {
+    background-color: white;
+    border-radius: 20px;
+    height: 38px;
+    width: 300px;
+    border: 1px solid #ccc;
+}
+
+.footerLink {
+    color: gray;
+}

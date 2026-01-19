@@ -1,0 +1,148 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.main {
+    display: flex;
+    min-height: 100vh;
+}
+
+.right {
+    display: flex;
+    flex: 1;
+    background-color: white;
+    align-items: center;
+}
+.form {
+    padding-left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 480px;
+}
+.rightHeading {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    gap: 6px;
+}
+.rightHeading1 {
+    font-size: 30px;
+    font-weight: 500;
+}
+.rightHeading2 {
+    font-size: 14px;
+    color: #828080;
+}
+input {
+    width: 400px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+.nameEmail {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.name, .email {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 15px;
+}
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 999px;
+    margin-top: 40px;
+    padding: 10px 22px
+}
+.extras {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.steps {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.step {
+    width: 50px;
+    height: 4px;
+    background: #d9d9d9;
+    border-radius: 4px;
+    margin-top: 40px;
+}
+.step.active {
+    background: black;
+}
+
+
+.left {
+    display: flex;
+    flex: 1;
+    background-color: black;
+    color: white;
+}
+.leftPage {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-left: 8%;
+}
+.header {
+    margin-top: 80px;
+    margin-bottom: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    gap: 30px;
+}
+.leftHeading {
+    display: flex;
+    font-size: 55px;
+    margin-bottom: 3%;
+}
+.leftBody {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 18px;
+}
+.trust {
+    margin-top: 16%;
+    margin-bottom: 5%;
+}
+.figures {
+    margin-bottom: 5%;
+}
+.rating {
+    margin-bottom: 5%;
+}
+.leftBody,
+.trust {
+    line-height: 1.5;
+}
+.footer {
+    margin-top: auto;
+    height: 80px;
+    margin-left: -10%;
+    width: calc(100% + 10%);
+    background: linear-gradient(
+        120deg,
+        #000,
+        #222,
+        #000
+    );
+    background-size: 200% 200%;
+    animation: glow 6s ease infinite;
+}
+
+@keyframes glow {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}

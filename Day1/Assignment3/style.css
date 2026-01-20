@@ -1,8 +1,83 @@
-body {
+* {
     margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
 }
 
-header {
-    background: fixed;
-    background: wheat;
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 80px 10px 80px;
+    box-shadow: 0 2px 4px lightgrey;
+    align-items: center;
+}
+
+.navLeft {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.blue {
+    color: #150861;
+    font-size: 30;
+    font-weight: 500;
+}
+.red {
+    color: #e7000b;
+    font-size: 30;
+    font-weight: 500;
+}
+.navLCont {
+    font-size: 13;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 100;
+}
+
+.navRight {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.input {
+    border-radius: 8px;
+    height: 30px;
+    width: 200;
+    border: 1px solid lightgrey;
+    padding-left: 30;
+}
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+    color: gray;
+}
+.search-icon {
+    position: absolute;
+    padding-left: 8px;
+    height: 30px;
+    width: 30px;
+}
+.account {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #150861;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

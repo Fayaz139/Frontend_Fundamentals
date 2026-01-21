@@ -81,3 +81,32 @@ nav {
     align-items: center;
     justify-content: center;
 }
+
+.hero {
+    display: flex;
+    padding: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+.img {
+    height: 350px;
+}
+.heroLeft {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.hl1 {
+    border: 1px dashed gray;
+    border-radius: 50px;
+    width: 275;
+    height: 30;
+    font-size: 13;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.hl2 {
+    font-size: 40;
+}

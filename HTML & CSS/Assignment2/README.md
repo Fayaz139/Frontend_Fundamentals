@@ -18,7 +18,7 @@ This project is a clean and modern **Contact Sales page UI** built using **HTML 
 This project was created as part of **Frontend Fundamentals practice** to improve layout design, spacing, alignment, and real-world UI cloning skills.
 
 ## Live Demo
-https://tinyurl.com/ywz4pkaj
+https://tinyurl.com/329v29c9
 
 ## Author
 Fayaz

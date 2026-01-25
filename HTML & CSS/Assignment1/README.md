@@ -17,7 +17,7 @@ This project is a simple and responsive **Login / Sign Up page UI** built using 
 This project was created as part of **Frontend Fundamentals practice** to understand layout structuring, spacing, and basic form UI design.
 
 ## Live Demo
-https://tinyurl.com/yvwtptt9
+https://rb.gy/3y643t
 
 ## Author
 Fayaz

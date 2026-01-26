@@ -1,3 +1,5 @@
+//Swap keys and values of object
+
 function result(obj) {
     let key = Object.keys(obj);
     let output = {};

@@ -1,3 +1,5 @@
+//pick only keys given in the array from the object
+
 function result(obj, arr) {
     let output = {};
     

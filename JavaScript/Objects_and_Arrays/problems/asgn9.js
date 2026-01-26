@@ -1,3 +1,5 @@
+//Unique values across all object arrays
+
 let result = function (obj) {
     let output = [];
 

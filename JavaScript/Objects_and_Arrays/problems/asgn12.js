@@ -1,3 +1,4 @@
+//Sort object entries by values(ascending)
 function result(obj) {
     let output = [];
     let min = +Infinity;

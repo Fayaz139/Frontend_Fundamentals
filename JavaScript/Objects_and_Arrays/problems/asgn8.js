@@ -1,3 +1,5 @@
+//Find student with highest average mark
+
 function result(obj) {
     let output = "";
     let max = -Infinity;

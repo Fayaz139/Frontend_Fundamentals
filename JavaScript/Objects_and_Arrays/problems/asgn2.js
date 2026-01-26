@@ -1,3 +1,5 @@
+//Count word occurrences in array
+
 function result(arr) {
     let output = {};
 

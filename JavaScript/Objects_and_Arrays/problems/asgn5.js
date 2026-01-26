@@ -1,3 +1,5 @@
+//Flatten object of arrays into one array
+
 let result = function (obj) {
     let output = [];
     let key = Object.keys(obj);

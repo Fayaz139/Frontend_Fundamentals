@@ -1,3 +1,5 @@
+//Sum values in object arrays
+
 function result(expenses) {
     let output = {};
     let keys = Object.keys(expenses);

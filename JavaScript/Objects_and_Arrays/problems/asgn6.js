@@ -1,3 +1,5 @@
+//Group people by city
+
 function result(arr) {
 
     let output = {};

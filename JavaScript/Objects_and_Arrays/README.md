@@ -73,3 +73,9 @@ Both folders are important:
 - `experiments (Efficient approach)` → improvement
 
 This structure helps in building **strong JavaScript fundamentals**.
+
+<!-- Object.fromEntries(arr) = converts array to object -->
+<!-- Object.Entries(obj) = converts object to array -->
+
+<!-- "for in" loop = to get direct values in object without indexes -->
+<!-- "for of" loop = to get direct values in array without indexes --> 

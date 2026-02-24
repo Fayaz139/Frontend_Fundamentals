@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+}
+#heading {
+    font-size: 50px;
+}
+
+#buttons {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 50px;
+    height: 60px;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+.but {
+    width: 60px;
+    height: 30px;
+    border-radius: 30px;
+    border: 0px;
+}

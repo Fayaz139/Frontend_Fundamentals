@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="script.js" defer></script>
+    <title>FlashCard-App</title>
+</head>
+<body>
+    <section id="selection-tab" class="h-screen w-full bg-gray-200 flex items-center justify-center hidden">
+        <div class="flex flex-col bg-white rounded-3xl shadow-xl shadow-light-300 p-10 ">
+            <div id="heading" class="font-semibold text-3xl text-center">
+                Flashcard Master
+            </div>
+            <div id="subtitle" class="text-xs text-gray-400 text-center mt-1">
+                Master your topics with active recall.
+            </div>
+            <div id="topicButtons" class="mt-5">
+                <div class="text-xs font-semibold mb-1">
+                    Select a Topic
+                </div>
+                <div id="buttons" class="grid grid-cols-2 gap-3 mt-1">
+                    <button class="rounded-xl p-3 w-80 border border-gray-300 text-left shadow cursor-pointer">General Science</button>
+                    <button class="rounded-xl p-3 border border-gray-300 shadow w-80 text-left cursor-pointer">World History</button>
+                    <button class="rounded-xl p-3 border border-gray-300 shadow  w-80 text-left cursor-pointer">Programming</button>
+                    <button class="rounded-xl p-3 pr-40 border border-gray-300 shadow w-80 text-left cursor-pointer">Geography</button>
+                </div>
+            </div>
+            <div id="no_of_questions" class="mt-5">
+                <div class="text-xs font-semibold mb-1">
+                    Number of Questions
+                </div>
+                <select name="" id="selection" class="rounded-xl p-3  bg-gray-100 w-165 focus:outline-none focus:ring-0 cursor-pointer">
+                    <option value="5">5 Questions</option>
+                    <option value="10">10 Questions</option>
+                    <option value="15">15 Questions</option>
+                    <option value="20">20 Questions</option>
+                </select>
+            </div>
+            <button id="startButton" class="rounded-xl p-3 bg-indigo-600 mt-5 text-white font-bold cursor-pointer">
+                Start Learning
+            </button>
+        </div>
+    </section>
+
+
+    <section id="qna" class="h-screen w-full bg-gray-200 flex items-center justify-center "> <!-- hidden -->
+        <div class="flex flex-col bg-white rounded-3xl shadow-xl shadow-light-300 p-10 ">
+            <div id="heading" class="font-semibold text-3xl text-center">
+                Flashcard Master
+            </div>
+            <div id="subtitle" class="text-xs text-gray-400 text-center mt-1">
+                Master your topics with active recall.
+            </div>
+        </div>
+        
+    </section>
+</body>
+</html>

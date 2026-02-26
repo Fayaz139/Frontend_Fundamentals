@@ -8,7 +8,7 @@
     <title>FlashCard-App</title>
 </head>
 <body>
-    <section id="selection-tab" class="h-screen w-full bg-gray-200 flex items-center justify-center hidden">
+    <section id="selection-tab" class="h-screen w-full bg-gray-200 flex items-center justify-center ">
         <div class="flex flex-col bg-white rounded-3xl shadow-xl shadow-light-300 p-10 ">
             <div id="heading" class="font-semibold text-3xl text-center">
                 Flashcard Master
@@ -46,15 +46,35 @@
 
 
     <section id="qna" class="h-screen w-full bg-gray-200 flex items-center justify-center "> <!-- hidden -->
-        <div class="flex flex-col bg-white rounded-3xl shadow-xl shadow-light-300 p-10 ">
+        <div class="flex flex-col bg-white rounded-3xl shadow-xl shadow-light-300 p-10 items-center">
             <div id="heading" class="font-semibold text-3xl text-center">
                 Flashcard Master
             </div>
             <div id="subtitle" class="text-xs text-gray-400 text-center mt-1">
                 Master your topics with active recall.
             </div>
+            <div class="flex flex-col ">
+                <div class="flex justify-between">
+                    <div class="text-sm p-1">
+                        Question 1 of 10
+                    </div>
+                    <div class="uppercase bg-indigo-200  text-sm text-indigo-600 h-fit px-3 rounded-full">
+                        General Science
+                    </div>
+                </div>
+                <div class="bg-gray-300 rounded-full w-165 h-2"></div>
+            </div>
+            <div id="card" class="w-130 h-80 mt-15 perspective">
+                <div id="cardInner" class="relative w-full h-full transition-transform duration-500 transform-style preserve-3d cursor-pointer">
+                    <div class="absolute w-full h-full bg-white rounded-3xl shadow-xl border border-gray-100 flex items-center justify-center backface-hidden">
+                        <span class="text-lg font-semibold">Question goes here</span>
+                    </div>
+                    <div class="absolute w-full h-full bg-indigo-600 text-white rounded-3xl shadow-xl flex items-center justify-center rotate-y-180 backface-hidden">
+                        <span class="text-lg font-semibold">Answer goes here</span>
+                    </div>
+                </div>
+            </div>
         </div>
-        
     </section>
 </body>
 </html>

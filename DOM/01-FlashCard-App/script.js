@@ -1,15 +1,15 @@
 let btns = document.querySelectorAll("#buttons button")
 
-btns[0].classList.add("border-indigo-500", "bg-indigo-100", "border-2")
+btns[0].classList.add("border-indigo-500", "bg-indigo-100", "border-2", "text-indigo-600")
 
 let selectedTopic = btns[0].textContent
 
 for (let i = 0; i < btns.length; i++) {
     btns[i].addEventListener("click", (e) => {
         for (let j = 0; j < btns.length; j++) {
-            btns[j].classList.remove("border-indigo-500", "bg-indigo-100", "border-2")
+            btns[j].classList.remove("border-indigo-500", "bg-indigo-100", "border-2", "text-indigo-600")
         }
-        e.target.classList.add("border-indigo-500", "bg-indigo-100", "border-2")
+        e.target.classList.add("border-indigo-500", "bg-indigo-100", "border-2", "text-indigo-600")
         selectedTopic = e.target.textContent
     })
 }

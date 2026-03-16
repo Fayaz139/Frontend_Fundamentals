@@ -1,7 +1,9 @@
 const fs = require('fs').promises;
 const { Command } = require('commander');
 const program = new Command();
-const file = "todo.json";
+const path = require("path");
+const file = path.join(__dirname, "todo.json");
+// const file = "todo.json";
 
 //Check the json file for the presence of data
 async function check() {

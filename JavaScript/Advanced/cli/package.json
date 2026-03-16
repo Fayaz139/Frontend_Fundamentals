@@ -4,6 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "add": "node todo/index.js add",
+    "show": "node todo/index.js show",
+    "update": "node todo/index.js update",
+    "delete": "node todo/index.js delete",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
